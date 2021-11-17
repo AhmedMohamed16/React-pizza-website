@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import BannerImage from "../assets/pizza.jpeg";
-import "../styles/Home.css";
+import BannerImage from "../../assets/pizza.jpeg";
+import "./Home.css";
 
 function Home() {
   return (
@@ -13,7 +13,9 @@ function Home() {
           <button> ORDER NOW </button>
         </Link>
       </div>
+
     </div>
+    
   );
 }
 

@@ -1,10 +1,10 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Home from "./pages/Home";
-import Menu from "./pages/Menu";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
+import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/footer/Footer";
+import Home from "./pages/home/Home";
+import Menu from "./pages/menu/Menu";
+import About from "./pages/about/About";
+import Contact from "./pages/contact/Contact";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
